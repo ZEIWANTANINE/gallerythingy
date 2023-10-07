@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ImageViewSlider">
+    <Button
+        android:id="@+id/selectbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginBottom="7dp"
+        android:background="#B297F3"
+        android:text="Select Pictures"
+        android:textSize="17sp" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="390dp"
+        android:layout_below="@id/selectbutton"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#000"
+        android:layout_below="@id/imageView"
+        android:gravity="center"/>
+
+
+</RelativeLayout>
